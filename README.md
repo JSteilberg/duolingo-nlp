@@ -5,6 +5,7 @@ NLP experiments with Duolingo Data. To learn more about the data visit http://sh
 
 Installation
 ------------
+### Linux
 1. Install the requirements with `pip install -r requirements.txt`
 2. Download the dataset from [duolingo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO), 
    then put the tar files into `./data/raw`. 
