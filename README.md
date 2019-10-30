@@ -1,14 +1,16 @@
 duolingo-nlp
 ==============================
 
-NLP experiments with Duolingo Data
+NLP experiments with Duolingo Data. To learn more about the data visit http://sharedtask.duolingo.com/.
 
 Installation
 ------------
 1. Install the requirements with `pip install -r requirements.txt`
-2. Download the dataset from [duolingo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO), then put the tar files into `./data/raw`
+2. Download the dataset from [duolingo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO), 
+   then put the tar files into `./data/raw`. 
 3. Extract them to folders kinda like I do in `extract.sh`
-4. Run `python ./src/data/make_dataset.py data_en_es data_en_es` (or maybe replacing data_en_es with the dataset you're using)
+4. Run `python ./src/data/make_dataset.py data_en_es data_en_es` 
+   (or maybe replacing data_en_es with the dataset you're using)
 5. That's as far as it goes right now folks
 
 
