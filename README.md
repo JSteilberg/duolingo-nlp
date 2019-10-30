@@ -3,15 +3,26 @@ duolingo-nlp
 
 NLP experiments with Duolingo Data
 
-Project Organization
+Installation
 ------------
+1. Install the requirements with `pip install -r requirements.txt`
+2. Download the dataset from [duolingo](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8SWHNO), then put the tar files into `./data/raw`
+3. Extract them to folders kinda like I do in `extract.sh`
+4. Run `python ./src/data/make_dataset.py data_en_es data_en_es` (or maybe replacing data_en_es with the dataset you're using)
+5. That's as far as it goes right now folks
+
+
+### macOS
+You proably want `brew` or something idk
+do something like the linux instructions
+
+Project Organization
+-------------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
