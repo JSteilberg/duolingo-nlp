@@ -14,7 +14,7 @@ jmespath==0.9.4
 kiwisolver==1.1.0
 matplotlib==3.1.1
 murmurhash==1.0.2
-nltk==3.4.5
+nltk==3.6.4
 numpy==1.17.3
 plac==0.9.6
 preshed==3.0.2
@@ -29,5 +29,5 @@ spacy==2.2.1
 srsly==0.2.0
 thinc==7.1.1
 tqdm==4.36.1
-urllib3==1.25.6
+urllib3==1.26.5
 wasabi==0.3.0
