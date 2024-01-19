@@ -2,7 +2,7 @@ blis==0.4.1
 boto==2.49.0
 boto3==1.10.5
 botocore==1.13.5
-certifi==2022.12.7
+certifi==2023.7.22
 chardet==3.0.4
 Click==7.0
 cycler==0.10.0
@@ -29,5 +29,5 @@ spacy==2.2.1
 srsly==0.2.0
 thinc==7.1.1
 tqdm==4.36.1
-urllib3==1.26.5
+urllib3==1.26.17
 wasabi==0.3.0
